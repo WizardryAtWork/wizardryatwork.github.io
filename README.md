@@ -1,43 +1,21 @@
-# Chirpy Starter
+# README
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Welcome to my portfolio website, designed to showcase my projects and experience. This site is hosted on GitHub Pages and built using Jekyll with the Chirpy theme for an organized, modern, and highly customizable design.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+Technology Stack
+1. Jekyll
+Purpose: Jekyll is a static site generator, converting Markdown files into a complete website with minimal setup and maintenance. Ideal for blogs, portfolios, and personal websites.
+Customization: Enables easy customization, allowing me to add my own styling, scripts, and adjust layouts directly within the codebase.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+2. Chirpy Theme
+Theme Choice: Chirpy was selected for its simplicity, readability, and effective organization suited for showcasing content.
+Features: Includes built-in support for tags, categories, a blog index, and social media integration.
+Adaptability: Offers flexibility to tailor the website's look and feel, such as customizing color schemes, layout structure, and widgets.
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+3. GitHub Pages
+Hosting: The website is hosted on GitHub Pages, which serves the site directly from the GitHub repository without needing an external server.
+Version Control: Using Git allows me to track changes over time, manage content updates, and collaborate if needed.
+Domain: The site is accessible through my custom domain, adding a professional look and enhancing my personal brand.
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
-
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
-
-## Usage
-
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
-
-## Contributing
-
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+This site is meant for personal use - but feedback is welcome :)
+Reach out if you encounter any issues or have suggestions.
